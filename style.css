@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Inter:wght@100..900&family=Lobster+Two&family=Quattrocento:wght@400;700&family=Ruda:wght@400..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#main_section {
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+}
+
+#field_conatiner {
+  width: 80%;
+  padding: 60px 40px;
+}
+
+#field_conatiner > h1 {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 29px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.input_field_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 21.78px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  color: rgba(255, 255, 255, 1);
+}
+
+#field_conatiner > div {
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  background-color: black;
+  color: #fff;
+  font-size: 18px; 
+  font-family: "Inter", sans-serif;
+  padding: 10px 40px;
+  border-radius: 3px;
+  border: 1px solid rgba(255, 255, 255, 1);
+}
+
+
+
+#btn {
+display: block;
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+  border: none;
+  font-family: "Inter", sans-serif;
+  padding: 5px 40px;
+  background-color: rgba(255, 255, 255, 1);
+  color: black;
+}
+
+#employee_details {
+  color: rgba(255, 255, 255, 1);
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  margin-top: 30px;
+  line-height: 29px;
+}
+
+#message_box{
+    margin-top: 30px;
+}
+
+#employeedata{
+    border: 1px solid #fff;
+    width: 50%;
+    border-radius: 7px;
+    padding: 10px;
+    margin-top: 20px;
+    
+}
+
+#employeedata li{
+    list-style: none;
+}
