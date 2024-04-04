@@ -92,7 +92,7 @@ display: block;
 
 #employeedata{
     border: 1px solid #fff;
-    width: 50%;
+    width: 55%;
     border-radius: 7px;
     padding: 10px;
     margin-top: 20px;
@@ -101,4 +101,12 @@ display: block;
 
 #employeedata li{
     list-style: none;
+}
+
+#employeedata ul li button {
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: none;
+    display: block;
+
 }
